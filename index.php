@@ -66,12 +66,12 @@ $userGames = $gameManager->getUserGames($auth->getUserId());
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reversi Game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_v3.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Reversi / Othello</h1>
+            <h1>Reversi</h1>
             <div class="user-info">
                 <span>Welcome, <?php echo htmlspecialchars($auth->getUsername()); ?>!</span>
                 <form method="POST" style="display: inline;">
@@ -137,7 +137,7 @@ $userGames = $gameManager->getUserGames($auth->getUserId());
         </div>
 
         <footer>
-            <p>Reversi (also known as Othello) - A classic strategy board game</p>
+            made with 🖤 by kay
         </footer>
     </div>
 
